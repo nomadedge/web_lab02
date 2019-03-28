@@ -1,24 +1,47 @@
-#buy{
-    background-color: #f0dbc0;
+#choose{
+    background-color: lightgrey;
 }
 
 #asus15{
     background: url(media/15_desktop.jpg);
     background-size: cover;
     background-position: center;
-    height: 1200px;
+    height: 1000px;
     display: flex;
     flex-flow: column;
 }
 
 #asus15name{
-    max-width: 70%;
+    max-width: 640px;
     margin-top: 20px;
     display: flex;
+    flex-flow: column;
     justify-content: center;
 }
 
 #asus15name img{
     max-width: 100%;
     max-height: 100%;
+}
+
+#asus15buy{
+    max-width: 70%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#buy{
+    background-color: #f0dbc0;
+}
+
+@media (max-width: 768px){
+    #asus15{
+        background: url(media/15_mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        display: flex;
+        flex-flow: column;
+    }
 }
