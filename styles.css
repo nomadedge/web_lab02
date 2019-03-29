@@ -53,10 +53,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 #asus15info p{
     width: 70%;
+}
+
+#qualities{
+    background-color: black;
+}
+
+#qualities h2{
+    color: azure;
+    text-align: center;
+}
+
+#qualities p{
+    color: azure;
+    text-align: center;
+}
+
+#qualities .container-fluid{
+    display: flex;
+    flex-direction: column;
+}
+
+#q1{
+    background: url(media/beauty_mobile_edited.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#q2{
+    background: url(media/spirit_mobile_edited.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#q3{
+    background: url(media/strength_mobile_edited.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 768px){
